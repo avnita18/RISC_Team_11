@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot">
+    <xacro:include filename="robot_main_og.xacro"/>
+    <xacro:include filename="gazebo_control_og.xacro"/>
+    <xacro:include filename="camera_og.xacro" />
+</robot>

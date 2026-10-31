@@ -1,0 +1,19 @@
+[workspace]
+channels = ["robostack-jazzy", "conda-forge"]
+name = "induction_hackathon_team_11_ws"
+platforms = ["osx-arm64", "linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+ros-jazzy-desktop = ">=0.11.0,<0.12"
+gz-sim8 = ">=8.10.0,<9"
+gz-launch7 = ">=7.1.1,<8"
+ros-jazzy-ros-gz = ">=1.0.23,<2"
+colcon-common-extensions = ">=0.3.0,<0.4"
+compilers = ">=2.0.0,<3"
+cmake = ">=4.4.4,<5"
+ninja = ">=1.13.2,<2"
+setuptools = ">=84.0.0,<85"
+ros-jazzy-joint-state-publisher-gui = ">=2.4.3,<3"
